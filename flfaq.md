@@ -1,7 +1,3 @@
-# FAQ about Federated Learning
-
-In this FAQ, we explore Federated Learning, a way to train machine learning models across many devices without sharing their data. You’ll learn what Federated Learning is, how it works, and where it’s used, such as in healthcare and finance. We also cover its benefits, like better privacy and security, and compare it to traditional machine learning. Whether you’re new to Federated Learning or looking to understand it better, this guide provides clear and answers to common questions.
-
 ## What is Federated Learning?
 
 Federated Learning is a decentralized approach to machine learning where multiple devices or servers collaborate to train a shared model without exchanging their local data. Instead of pooling data into a central server, each device (often called a client) processes its own data and computes updates to the global model. These updates are then aggregated by a central server to refine the global model. This method enhances privacy and security by ensuring that sensitive data remains on local devices.
