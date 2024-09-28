@@ -1,4 +1,4 @@
-# Frequently Asked Questions about Federated Learning
+# FAQ about Federated Learning
 
 ## What is Federated Learning?
 
