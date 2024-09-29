@@ -1,0 +1,67 @@
+.main-content {
+  font-size: 87.5%;
+}
+
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4,
+.main-content h5,
+.main-content h6,
+.main-content hgroup h1,
+.main-content hgroup h2,
+.main-content hgroup h3,
+.main-content hgroup h4,
+.main-content hgroup h5,
+.main-content hgroup h6 {
+  font-weight: 600;
+}
+
+.main-content h1,
+.main-content hgroup h1 {
+  --pico-font-size: 2em;
+}
+
+.main-content h2,
+.main-content hgroup h2 {
+  --pico-font-size: 1.75em;
+}
+
+.main-content h3,
+.main-content hgroup h3 {
+  --pico-font-size: 1.5em;
+}
+
+.main-content h4,
+.main-content hgroup h4 {
+  --pico-font-size: 1.25em;
+}
+
+.main-content h5,
+.main-content hgroup h5 {
+  --pico-font-size: 1.125em;
+}
+
+.main-content h6,
+.main-content hgroup h6 {
+  --pico-font-size: 1em;
+}
+
+.main-content p,
+.main-content hgroup p {
+  font-weight: 300;
+  line-height: 1.55;
+}
+
+.main-content hgroup > :last-child {
+  font-size: inherit;
+}
+
+.main-content button {
+  font-size: 0.9em;
+  padding: 0.7em 1em;
+}
+
+.spacer {
+  margin-bottom: 4rem;
+}
