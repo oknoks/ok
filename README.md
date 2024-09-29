@@ -1,4 +1,4 @@
-https://oknoks.github.io/ok/
+https://oknoks.github.io/ok/framework.html
 
 [OG image](https://tinyurl.com/2y2ctbp4)
 
