@@ -12,6 +12,6 @@ https://github.com/justinribeiro/lite-youtube
 CSS
 ```
 @import url("https://unpkg.com/@picocss/pico@latest/css/pico.min.css");
-@import url("https://raw.githack.com/oknoks/ok/refs/heads/main/picocss_override.css");
+@import url("https://cdn.jsdelivr.net/gh/oknoks/ok@main/css/picocss_override.css");
 
 ```
