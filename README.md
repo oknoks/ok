@@ -8,3 +8,10 @@ https://oknoks.github.io/ok/framework.html
 https://github.com/justinribeiro/lite-youtube
 
 [Edit photo](https://oknoks.github.io/ok/bin/edit-photo.html)
+
+CSS
+```
+@import url("https://unpkg.com/@picocss/pico@latest/css/pico.min.css");
+@import url("https://raw.githack.com/oknoks/ok/refs/heads/main/picocss_override.css");
+
+```
