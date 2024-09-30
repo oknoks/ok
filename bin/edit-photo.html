@@ -11,9 +11,16 @@
   </head>
   <body>
     <main>
-      <edit-photo style="width: 100vw; height: 100vh" theme="dark">
+      <edit-photo  ondownload="handleDownload" style="width: 100vw; height: 100vh" theme="dark">
         <a href="https://edit.photo/template/eyJsYWJlbCI6Ik15IFBob3RvIEVkaXRvciJ9/">Edit Photo</a>
       </edit-photo>
+      <script>
+        function handleDownload(url) {
+            const image = new Image();
+            image.src = url;
+            document.body.append(image);
+        }
+      </script>
       <script src="https://edit.photo/widget.js" async=""></script>
     </main>
   </body>
