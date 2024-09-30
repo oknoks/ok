@@ -2,7 +2,12 @@ https://oknoks.github.io/ok/framework.html
 
 OG
 [OG image 1](https://tinyurl.com/2y2ctbp4)
+
 [OG image 2](https://tinyurl.com/yt3dmy36)
+
+https://ogcool.vercel.app/
+
+https://dub.co/tools/metatags
 
 
 [Favicon generator](https://tinyurl.com/favicon-img)
