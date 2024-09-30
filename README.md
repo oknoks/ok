@@ -1,6 +1,9 @@
 https://oknoks.github.io/ok/framework.html
 
-[OG image](https://tinyurl.com/2y2ctbp4)
+OG
+[OG image 1](https://tinyurl.com/2y2ctbp4)
+[OG image 2](https://tinyurl.com/yt3dmy36)
+
 
 [Favicon generator](https://tinyurl.com/favicon-img)
 
