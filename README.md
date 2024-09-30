@@ -7,4 +7,4 @@ https://oknoks.github.io/ok/framework.html
 
 https://github.com/justinribeiro/lite-youtube
 
-Edit photo: https://raw.githubusercontent.com/oknoks/ok/refs/heads/main/bin/edit-photo.html
+[Edit photo](https://oknoks.github.io/ok/bin/edit-photo.html)
