@@ -18,3 +18,6 @@ https://metatags.io/
 # Markdown
 
 https://napp.pro/markdown/
+
+# Screen sizes
+https://gs.statcounter.com/screen-resolution-stats/desktop/worldwide
