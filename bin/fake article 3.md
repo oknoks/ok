@@ -1,4 +1,10 @@
-﻿# The quick, brown fox
+---
+title: "The quick, brown fox"
+date: "2024-10-04"
+description: "The quick, brown fox jumps over a lazy dog. With a flick of its bushy tail, the fox bounds forward, its sleek body gliding effortlessly through the crisp morning air."
+---
+ 
+ # The quick, brown fox
  
 ![enter image description here](https://i.ibb.co/FYPJGX2/fox-1.webp)
 
