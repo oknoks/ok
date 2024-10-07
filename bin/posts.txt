@@ -1,4 +1,4 @@
 https://raw.githubusercontent.com/oknoks/ok/refs/heads/main/bin/aristotle.md
 https://raw.githubusercontent.com/oknoks/ok/refs/heads/main/bin/cicero.md
-https://raw.githubusercontent.com/oknoks/ok/refs/heads/main/bin/marcus.md
+https://raw.githubusercontent.com/oknoks/ok/refs/heads/main/bin/Philosophy%20of%20the%20good%20life.md
 https://raw.githubusercontent.com/oknoks/ok/refs/heads/main/bin/plato.md
