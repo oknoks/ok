@@ -1,4 +1,10 @@
-﻿# Gregor Samsa woke from troubled dreams
+---
+title: "Gregor Samsa woke from troubled dreams"
+date: "2024-10-03"
+description: "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin."
+---
+ 
+# Gregor Samsa woke from troubled dreams
 
 
 ![enter image description here](https://i0.wp.com/theopiatemagazine.com/wp-content/uploads/2020/04/gregor.png?resize=966,768&ssl=1)
