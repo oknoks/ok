@@ -1,4 +1,10 @@
-﻿# A wonderful serenity
+---
+title: "A wonderful serenity"
+date: "2024-10-01"
+description: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart."
+---
+ 
+# A wonderful serenity
  
 ![enter image description here](https://theproductivewoman.com/wp-content/uploads/2022/02/TPW384-main--720x405.png)
 
