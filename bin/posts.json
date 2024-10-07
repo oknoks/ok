@@ -1,18 +1,7 @@
 [
-  {
-    "url": "https://raw.githubusercontent.com/oknoks/ok/refs/heads/main/bin/fake_article_1.md"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/oknoks/ok/refs/heads/main/bin/fake_article_2.md",
-    "title": "Fake article number two"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/oknoks/ok/refs/heads/main/bin/fake article 3.md"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/oknoks/ok/refs/heads/main/bin/fake_article_4.md"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/oknoks/bin/refs/heads/main/dummy_blog.md"
-  }
+  { "url": "https://raw.githubusercontent.com/oknoks/ok/refs/heads/main/bin/fake_article_1.md" },
+  { "url": "https://raw.githubusercontent.com/oknoks/ok/refs/heads/main/bin/fake_article_2.md"},
+  { "url": "https://raw.githubusercontent.com/oknoks/ok/refs/heads/main/bin/fake article 3.md"},
+  { "url": "https://raw.githubusercontent.com/oknoks/ok/refs/heads/main/bin/fake_article_4.md"},
+  { "url": "https://raw.githubusercontent.com/oknoks/bin/refs/heads/main/dummy_blog.md"},
 ]
