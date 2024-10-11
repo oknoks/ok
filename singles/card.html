@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card maker</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  </head>
+  <body>
+      <style>
+      body {
+        font-family: helvetica, Arial, sans-serif;
+        max-width: 340px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 20px;
+      }
+      input {
+        padding: 5px;
+        font-size: 16px;
+      }
+      button {
+        padding: 10px;
+        font-size: 16px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #45a049;
+      }
+      #preview {
+        width: 9cm;
+        height: 5.5cm;
+        border: 1px solid #ccc;
+        padding: 0.5cm;
+        box-sizing: border-box;
+        margin-top: 20px;
+        background-color: #fff;
+        position: relative;
+      }
+      #preview img {
+        width: 5.5cm;
+        height: auto;
+        position: absolute;
+        top: 0.5cm;
+        left: 0.5cm;
+      }
+      #preview .details {
+        position: absolute;
+        bottom: 0.7cm;
+        left: 0.5cm;
+      }
+      #preview p {
+        margin: 0 0 0.15cm 0;
+        font-size: 11pt;
+      }
+      #preview p:last-child {
+        margin-bottom: 0;
+      }
+      #preview .name {
+        font-weight: bold;
+      }
+    </style>
+
+    <br /><br />
+    <form id="businessCardForm">
+      <input
+        type="text"
+        id="name"
+        value="Gandalf Grey"
+        placeholder="Enter your name"
+        required=""
+        oninput="updatePreview()"
+      />
+      <input
+        type="text"
+        id="title"
+        value="Chief Strategy Officer"
+        placeholder="Enter your title"
+        required=""
+        oninput="updatePreview()"
+      />
+      <input
+        type="email"
+        id="email"
+        value="gandalf@scaleoutsystems.com"
+        placeholder="Enter your email"
+        required=""
+        oninput="updatePreview()"
+      />
+      <button type="button" onclick="generatePDF()">Generate PDF</button>
+    </form>
+    <p>Preview:</p>
+    <div id="preview">
+      <img src="https://i.ibb.co/TgdWZv1/logpng.png" alt="Company Logo" />
+      <div class="details">
+        <p id="previewName" class="name"></p>
+        <p id="previewTitle"></p>
+        <p id="previewEmail"></p>
+      </div>
+    </div>
+
+    <script>
+      function updatePreview() {
+        document.getElementById("previewName").textContent =
+          document.getElementById("name").value;
+        document.getElementById("previewTitle").textContent =
+          document.getElementById("title").value;
+        document.getElementById("previewEmail").textContent =
+          document.getElementById("email").value;
+      }
+
+      function generatePDF() {
+        const name = document.getElementById("name").value;
+        const title = document.getElementById("title").value;
+        const email = document.getElementById("email").value;
+
+        const { jsPDF } = window.jspdf;
+        const doc = new jsPDF({
+          orientation: "landscape",
+          unit: "cm",
+          format: [9, 5.5],
+        });
+
+        const img = new Image();
+        img.src = "https://i.ibb.co/TgdWZv1/logpng.png";
+        img.onload = function () {
+          const maxWidth = 5.5;
+          const scaleFactor = maxWidth / img.width;
+          const scaledWidth = img.width * scaleFactor;
+          const scaledHeight = img.height * scaleFactor;
+
+          doc.addImage(img, "PNG", 0.5, 0.5, scaledWidth, scaledHeight);
+
+          const detailsSize = 11;
+          const bottomMargin = 0.7;
+          const lineHeight = 0.5;
+
+          doc.setFontSize(detailsSize);
+
+          doc.setFont("helvetica", "bold");
+          doc.text(name, 0.5, 5.5 - bottomMargin - 2 * lineHeight);
+
+          doc.setFont("helvetica", "normal");
+          doc.text(title, 0.5, 5.5 - bottomMargin - lineHeight);
+          doc.text(email, 0.5, 5.5 - bottomMargin);
+
+          doc.save("business_card.pdf");
+        };
+      }
+
+      updatePreview();
+    </script>
+
+    <script></script>
+  </body>
+</html>
