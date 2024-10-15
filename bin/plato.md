@@ -2,6 +2,8 @@
 title: "The Seventh Letter"
 date: "2024-10-03"
 description: "You write to me that I must consider your views the same as those of Dion, and you urge me to aid your cause so far as I can in word and deed."
+author: "Plato"
+image: "https://i.ibb.co/mFkqj45/plato.jpg"
 ---
  
 # The Seventh Letter
