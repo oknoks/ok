@@ -2,6 +2,8 @@
 title: "On the Gait of Animals"
 date: "2024-10-04"
 description: "Examines the reasons behind animal locomotion. It seeks to explain these anatomical differences and the mechanics of movement across species."
+author: "Sokrates"
+image: "https://i.ibb.co/rM57Yrq/aristotle.jpg"
 ---
  
 # On the Gait of Animals
