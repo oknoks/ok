@@ -3,7 +3,7 @@ title: "Philosophy of the Good Life"
 date: "2024-10-01"
 description: "It is a saying of Plato’s, that no soul misses truth of her own good-will. Be particularly careful to remember this, for it will help to sweeten your temper towards all men."
 ---
- 
+
 # Philosophy of the Good Life
  
 ![Marcus Aurelius](https://i.ibb.co/hZrMQZ0/Marcus-Aurelius-1.jpg)
